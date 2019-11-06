@@ -1,0 +1,14 @@
+# Documentation: https://roots.io/trellis/docs/vault/
+vault_mail_password: smtp_password
+
+# Variables to accompany `wordpress_env_defaults` in `group_vars/all/helpers.yml`
+# Note: These values can be overriden by `vault_wordpress_sites.*.env`
+#
+vault_wordpress_env_defaults:
+  acf_pro_key: 'YOURACFPROKEY'
+  # CRISP_TOKEN: 'CRISPTOKEN'
+  # CRISP_KEY: 'CRISPKEY'
+  # CRISP_BEACON_ID: 'CRISPBEACON'
+  # RECAPTCHA_SITE: 'RECAPTCHASITE'
+  # RECAPTCHA_SERVER: 'RECAPTCHASERVER'
+
